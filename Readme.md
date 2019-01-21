@@ -23,7 +23,7 @@
 
 * Eureka Service Discovery: http://localhost:8761/
 * User Profile Api Sample: http://localhost:8080/api/userprofile/users/1
-                         Swagger Link :http://localhost:55973/swagger-ui.html
+* Swagger Link :http://localhost:55973/swagger-ui.html
 * Hysterix: http://localhost:7979/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fhystrix.stream
 * Admin: http://localhost:9090/#/applications/API-GATEWAY
 * Config Server: http://localhost:8888
