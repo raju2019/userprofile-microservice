@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jem?nullNamePatternMatchesAll=true&autoReconnect=true&serverTimezone=AET&useLegacyDatetimeCode=false&useSSL=false
+    username: root
+    password: Password@123
+
+  jpa:
+    hibernate:
+      #ddl-auto: update
+      ddl-auto: create #resetea
+      dialect: org.hibernate.dialect.MySQL5Dialect
+
+  server:
+    port: 8080
+
+  logging:
+    config: classpath:logback-spring.xml
+    file: userprofile-service.log

@@ -1,0 +1,10 @@
+zuul:
+  prefix: /api
+  ignoredServices: '*'
+  routes:
+      userprofile-service: /userprofile/**
+      api-gateway: /gateway/**
+
+logging:
+  config: classpath:logback-spring.xml
+  file: userprofile-api-gateway.log
